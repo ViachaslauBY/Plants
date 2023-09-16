@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+  <script src="js/burger-menu.js" defer></script>
+  <script src="js/tabs.js" defer></script>
+  <script src="js/accordion.js" defer></script>
+  <script src="js/select.js" defer></script>
+  <title>Plants</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container header__wrapper">
+      <div class="header__logo">
+        <a class="logo__link" href="index.html">
+          <img class="logo__img" src="img/logo.png" alt="Logo Plants">
+          <span class="logo__text">Plants</span>
+        </a>        
+      </div> 
+      <div>
+        <button class="header__burger" type="button" aria-label="Burger menu">
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+        </button>
+        <nav class="header__nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link nav__link_active">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About us</a>
+            </li>
+            <li class="nav__item">
+              <a href="#service" class="nav__link">Service</a>
+            </li>
+            <li class="nav__item">
+              <a href="#price" class="nav__link">Price</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contacts" class="nav__link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+      </div>      
+    </div>
+  </header>
+
+  <main class="main">    
+    <section class="welcome">
+      <div class="container welcome__wrapper">
+        <img class="welocome__img" src="img/leafs.png" alt="Leafs">
+        <div class="welcome__info">
+          <h1 class="welcome__title">We grow <span class="welcome__title_green">plants</span> and give you oxygen</h1>
+          <p class="welcome__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+          </p>
+          <button class="welcome__button" type="button">LEARN MORE</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container about__wrapper">
+        <div class="about__info">
+          <h2 class="about__title">We are <span class="about__title__orange">professional experienced</span>gardeners</h2>
+          <p class="about__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+          </p>
+        </div> 
+        <picture>
+          <source srcset="img/houseplant-586px.png" media="(max-width: 586px)">
+          <img class="about__img" src="img/houseplant.png" alt="Houseplant">
+        </picture>               
+      </div>
+    </section>
+
+    <section class="service" id="service">
+      <div class="container service__wrapper">
+        <div class="service__info">
+          <h2 class="service__title">Service and our projects</h2>
+          <div class="service__button-wrapper">
+            <button class="service__button" type="button" data-key="gardens">Gardens</button>
+            <button class="service__button" type="button" data-key="lawn">Lawn</button>
+            <button class="service__button" type="button" data-key="planting">Planting</button>
+          </div>          
+        </div>
+        <ul class="service__cards">
+          <li class="service__card gardens">
+            <picture>              
+              <source srcset="img/1-960px.jpg" media="(max-width: 960px)">
+              <img class="card__img" src="img/1.jpg" alt="Garden care">
+            </picture>            
+            <div class="card__info">
+              <h4 class="card__title">Garden care</h4>
+              <p class="card__description">Lorem Ipsum has been the industry</p>
+            </div>            
+          </li>
+          <li class="service__card planting">
+            <picture>
+              <source srcset="img/2-960px.jpg" media="(max-width: 960px)">
+              <img class="card__img" src="img/2.jpg" alt="Planting">
+            </picture>            
+            <div class="card__info">
+              <h4 class="card__title">Planting</h4>
+              <p class="card__description">Lorem Ipsum has been the industry</p>
+            </div>
+          </li>
+          <li class="service__card lawn">
+            <picture>
+              <source srcset="img/3-960px.jpg" media="(max-width: 960px)">
+              <img class="card__img" src="img/3.jpg" alt="Lawn care">
+            </picture>            
+            <div class="card__info">
+              <h4 class="card__title">Lawn care</h4>
+              <p class="card__description">Lorem Ipsum has been the industry</p>
+            </div>
+          </li>
+          <li class="service__card planting">
+            <picture>
+              <source srcset="img/4-960px.jpg" media="(max-width: 960px)">
+              <img class="card__img" src="img/4.jpg" alt="Planting">
+            </picture>            
+            <div class="card__info">
+              <h4 class="card__title">Planting</h4>
+              <p class="card__description">Lorem Ipsum has been the industry</p>
+            </div>
+          </li>
+          <li class="service__card gardens">
+            <picture>
+              <source srcset="img/5-960px.jpg" media="(max-width: 960px)">
+              <img class="card__img" src="img/5.jpg" alt="Garden care">
+            </picture>            
+            <div class="card__info">
+              <h4 class="card__title">Garden care</h4>
+              <p class="card__description">Lorem Ipsum has been the industry</p>
+            </div>
+          </li>
+          <li class="service__card planting">
+            <picture>
+              <source srcset="img/6-960px.jpg" media="(max-width: 960px)">
+              <img class="card__img" src="img/6.jpg" alt="Planting">
+            </picture>            
+            <div class="card__info">
+              <h4 class="card__title">Planting</h4>
+              <p class="card__description">Lorem Ipsum has been the industry</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="prices" id="price">
+      <div class="container prices__wrapper">
+        <h2 class="prices__title">Prices</h2>
+        <div class="prices__content">
+          <div class="prices__accordion">
+            <ul class="accordion__list">
+              <li class="accordion__item">
+                <div class="accordion__control">
+                  <span class="accordion__title">Basics</span>
+                  <span class="accordion__icon"></span>
+                </div>
+                <div class="accordion__content">
+                  <p class="accordion__text">Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
+                  <div class="accordion__price">
+                    <span class="price__currency">$</span><span class="price__value">15</span>                    
+                    <span class="price__hour">/ per hour</span>
+                  </div>                  
+                  <a class="accordion__button" href="#contacts">Order</a>
+                </div>                
+              </li>
+              <li class="accordion__item">
+                <div class="accordion__control">
+                  <span class="accordion__title">Standard</span>
+                  <span class="accordion__icon"></span>
+                </div>
+                <div class="accordion__content">
+                  <p class="accordion__text">Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
+                  <div class="accordion__price">
+                    <span class="price__currency">$</span><span class="price__value">25</span>
+                    <span class="price__hour">/ per hour</span>
+                  </div>
+                  <a class="accordion__button" href="#contacts">Order</a>
+                </div>
+              </li>
+              <li class="accordion__item">
+                <div class="accordion__control">
+                  <span class="accordion__title">Pro care</span>
+                  <span class="accordion__icon"></span>
+                </div>
+                <div class="accordion__content">
+                  <p class="accordion__text">Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
+                  <div class="accordion__price">
+                    <span class="price__currency">$</span><span class="price__value">35</span>
+                    <span class="price__hour">/ per hour</span>
+                  </div>
+                  <a class="accordion__button" href="#contacts">Order</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="prices__info">
+            <h3 class="prices__subtitle">Our best <span class="prices__subtitle_green">gardeners</span> are ready to help you</h3>
+            <button class="prices__button" type="button">Contact us</button>
+            <img class="prices__img" src="img/leafs2.png" alt="leafs">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contacts" id="contacts">
+      <div class="container contacts__wrapper">
+        <img class="contacts__img" src="img/woman.png" alt="woman">
+        <h2 class="contacts__title">Contact us</h2>
+        <div class="contacts__content">
+          <div class="contacts__select">
+            <div class="select__header">
+              <span class="select__current">City</span>
+              <div class="select__icon"></div>
+            </div>
+            <div class="select__body">
+              <div class="select__item">Canandaigua, NY</div>
+              <div class="select__item">New York City</div>
+              <div class="select__item">Yonkers, NY</div>
+              <div class="select__item">Sherrill, NY</div>
+            </div>
+          </div>
+          <div class="contacts__info">
+            <div class="info__wrapper">
+              <div class="info__content">
+                <span class="info__name">City:</span>
+                <span class="info__name">Phone:</span>
+                <span class="info__name">Office adress:</span>              
+              </div>
+              <div class="info__content">
+                <span class="info__value city"></span>
+                <span class="info__value phone"></span>
+                <span class="info__value adress"></span>
+              </div>
+            </div>                       
+            <a class="info__button" href="#" target="_blank">Call us</a>
+          </div>
+        </div>            
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__wrapper">
+      <a class="footer__link github" href="https://github.com/ViachaslauBY" target="_blank">© 2022 github</a>
+      <a class="footer__link rs" href="https://rs.school/js-stage0/" target="_blank">Rolling Scopes School</a>
+      <ul class="footer__social-list">
+        <li class="social__item">
+          <a href="#" class="social__link" title="Instagram">
+            <img class="social__icon" src="img/inst.svg" alt="Instagram">
+          </a>
+        </li>
+        <li class="social__item">
+          <a href="#" class="social__link" title="Facebook">            
+            <img class="social__icon" src="img/fb.svg" alt="Facebook">
+          </a>
+        </li>
+        <li class="social__item">
+          <a href="#" class="social__link" title="Twitter">
+            <img class="social__icon" src="img/tw.svg" alt="Twitter">
+          </a>
+        </li>
+        <li class="social__item">
+          <a href="#" class="social__link" title="Pinterest">
+            <img class="social__icon" src="img/pinterest.svg" alt="Pinterest">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
